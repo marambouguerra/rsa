@@ -1,0 +1,7 @@
+#ifndef ELTCHAR_H_INCLUDED
+#define ELTCHAR_H_INCLUDED
+
+typedef char*ELEMENT2;
+
+
+#endif // ELTCHAR_H_INCLUDED

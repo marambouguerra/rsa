@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projet asd 2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projet asd 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projet asd 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="ELTCHAR.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ELTCHAR.h" />
+		<Unit filename="ELTCRYPTAGE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ELTCRYPTAGE.h" />
+		<Unit filename="ELTINT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ELTINT.h" />
+		<Unit filename="ELTPRIM.h" />
+		<Unit filename="ELTPRIM2.h" />
+		<Unit filename="ELTPRIM3.h" />
+		<Unit filename="LSTDECRYPTAGE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LSTDECRYPTAGE.h" />
+		<Unit filename="LSTPHRASE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LSTPHRASE.h" />
+		<Unit filename="LSTPRIM1.h" />
+		<Unit filename="LSTPRIM2.h" />
+		<Unit filename="PILEPEIM.h" />
+		<Unit filename="PILETAB.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PILTAB.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
